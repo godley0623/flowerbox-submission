@@ -37,7 +37,7 @@
   .products {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px 10px;
+    gap: 20px 20px;
     grid-auto-flow: row;
     grid-template-areas:
       ". . ."
