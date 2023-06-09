@@ -6,7 +6,7 @@ console.log(data)
 
 export default function FlowerProducts() {
   const products = data.map((product, index) => {
-    return <div key={index} className={`product-${index}`}>
+    return <div key={index} className={`product product-${index}`}>
         <img src={product.image}/>
         <div className="product-info">
             <p className="name">{product.name}</p>
